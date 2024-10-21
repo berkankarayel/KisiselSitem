@@ -1,0 +1,17 @@
+﻿@model List<KisiselSitem.DAL.Entities.Skill>
+
+<div class="col-six tab-full right">
+    <h3>Yeteneklerim</h3>
+
+    @foreach(var item in Model)
+    {
+        <ul class="skill-bars">
+        <li>
+            <div class="progress percent@item.Value"><span>@item.Value</span></div>
+            <strong>@item.Title</strong>
+        </li>
+        </ul>
+    }
+
+   
+</div>
