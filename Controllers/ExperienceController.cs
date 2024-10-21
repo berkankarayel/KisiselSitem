@@ -2,9 +2,9 @@
 
 namespace KisiselSitem.Controllers
 {
-    public class LayoutController1 : Controller
+    public class ExperienceController : Controller
     {
-        public IActionResult Index()
+        public IActionResult ExperenceList()
         {
             return View();
         }
